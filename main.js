@@ -10,3 +10,8 @@ for (let t = 3; t < 100; t++){
     } 
 }
 
+for (let c = 5; c < 100; c++){
+    if (c % 5 === 0) { 
+    console.log("Buzz" ,c);
+    } 
+}
