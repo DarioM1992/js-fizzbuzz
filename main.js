@@ -32,7 +32,7 @@
 
 
 // ho inserito logica su come concatenare multipli singoli (3 || 5) e multipli (3 && 5) insieme e l'output del numero che non è nessuno di essi
-for (let t = 1; t < 100; t++){
+for (let t = 1; t < 101; t++){
     if ((t % 3 === 0) && (t % 5 === 0)) { 
     console.log("FizzBuzz" ,t);
     } else if (t % 3 === 0){
